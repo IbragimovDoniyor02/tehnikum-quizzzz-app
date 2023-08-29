@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Header } from "./components/Header";
-import { AppButton } from "./components/AppButton";
-import { AppImput } from "./components/AppImput";
+import { Header } from "../components/Header";
+import { AppButton } from "../components/AppButton";
+import { AppImput } from "../components/AppImput";
 
 export const Welcome = ({onGoNettPage}) => {
   const [userName, setUsername] = useState(null)

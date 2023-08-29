@@ -17,7 +17,7 @@ function App() {
       case 1:
         return <StepOne onGoNettPage={() => setCurrentPage (2)}/>
       case 2:
-        return <StepTwo onGoNettPage= {() => setCurrentPage(3)}/>
+        return <StepTwo onGoNettPage={() => setCurrentPage(3)}/>
       case 3:
         return <StepThree onGoNettPage={() => setCurrentPage (4)}/>
       case 4:

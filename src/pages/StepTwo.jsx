@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Header } from "./components/Header";
-import { Indicator } from "./components/indecator";
-import { ListedAnswerItem } from "./components/ListedAnswerItem";
-import { AppButton } from "./components/AppButton";
+import { Header } from "../components/Header";
+import { Indicator } from "../components/Indicator";
+import { ListedAnswerItem } from "../components/ListedAnswerItem";
+import { AppButton } from "../components/AppButton";
 
 export const StepTwo = ( {onGoNettPage} ) => {
   const [checkedItem, setCheckedItem] = useState(null)

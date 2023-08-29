@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import { Indicator } from "./components/indecator";
-import { NumericAnswerItem } from "./components/NumericAnswerItem";
-import { AppButton } from "./components/AppButton";
-import { Header } from "./components/Header";
-import { ListedAnswerItem } from "./components/ListedAnswerItem";
+import { Indicator } from "../components/Indicator"
+import { NumericAnswerItem } from "../components/NumericAnswerItem";
+import { AppButton } from "../components/AppButton";
+import { Header } from "../components/Header";
+import { ListedAnswerItem } from "../components/ListedAnswerItem";
 
 
 export  const StepFour = ( {onGoNettPage}) => {

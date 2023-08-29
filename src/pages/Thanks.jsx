@@ -1,7 +1,7 @@
 import React from "react";
-import {Header} from "react";
-import { Paragraph } from "./components/Paragraph";
-import { AppButton } from "./components/AppButton";
+import { Header } from "../components/Header";
+import { Paragraph } from "../components/Paragraph";
+import { AppButton } from "../components/AppButton";
 
 export const Thanks = () => {
   return (
